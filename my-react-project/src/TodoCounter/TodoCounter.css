@@ -1,0 +1,22 @@
+.TodoCounter {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--color-black);
+  animation-name: blur-in;
+  animation-duration: 3s;
+}
+
+.blur-in {
+  animation: blur-in 0.4s linear both;
+}
+@keyframes blur-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}

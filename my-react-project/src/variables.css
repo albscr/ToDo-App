@@ -1,0 +1,25 @@
+:root {
+  --color-primary: rgba(244, 193, 127, 0.67);
+  --color-secundary: #d8605b;
+  --color-secundary-blur: #d85f5ba9;
+  --color-gray: #c1c0c0;
+  --color-white: #fff;
+  --color-black: rgba(0, 0, 0, 0.61);
+  --background-gradient: linear-gradient(
+    270deg,
+    rgba(216, 96, 91, 1) 0%,
+    rgba(230, 144, 109, 1) 58%,
+    rgba(244, 194, 127, 1) 100%
+  );
+  --color-background: rgb(216, 96, 91);
+  --font-primary: poppins, sans-serif;
+}
+
+.container-items {
+    background-color: var(--color-white);
+    
+  }
+  .container-top {
+    background-color: var(--color-primary);
+    
+  }
